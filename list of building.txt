@@ -1,0 +1,58 @@
+AAB-Alcan Aquatic Research Centre
+AQ-Academic Quadrangle
+ASB-Applied Science Building
+BEE-Bee Research Building
+BFC- Beedle Field Concession
+BLU - Blusson Hall
+BRH - Barbara Rae House
+CCC- Childcare Centre
+CML-Convocation Mall
+CB -Cornerstone
+DAC-Diamond Alumni Centre
+DFA-Leslie & Gordon Diamond Family Audiotorium 
+DH-Dining Hall
+DIS1 -Discovery 1/2
+ECC-East Concourse Cafeteria
+EDB-Education Building
+ETA-Eastern Theatre Annex
+FM-Facilities Services
+GH-Greenhouses
+HAL-Halpern Centre
+HAM-Hamiilton Hall 
+LDC-Lorne Davies Complex
+LIB- W.A.C. Bennett Library
+MBC-Maggie Benson Centre
+MHH- Madge Hogarth House
+PJH-Pauline Jewett House
+RCB -Robert C. Brown Hall
+SCB-Shrum Science centre Biology
+SCC-Shrum Science centre Chemistry
+SCK-Shrum Science centre Kinesiology 
+SCP-Shrum Science Centre Physics 
+SECB -South East Classroom block
+SEGAL Segal graduate school of business
+SH-Strand Hall
+SHA-Strand Hall Annex
+SHB-Shadbolt house
+SHR-Shell House Residence
+SSB -South Science Building
+SUB-Student union building
+SWH Saywell Hall
+TASC1-Tecnology & Science Complex 1
+TASC2-Tecnology & Science Complex 2
+T3 - Biology Trailer
+TC- Transportation Centre
+TOB-Trottier Observation Building
+WMC- West Mall Centre
+WP-West Parkade
+WT-Water Tower
+WTB-Water Tower building
+Central Parkade
+East parking
+North Parking
+South Parking
+South Parkade
+West Parkade
+
+
+
