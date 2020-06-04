@@ -8,6 +8,12 @@
 	and lightgreen C6CCB2 along with white as a
 	colour palette since that matches the map more.
 */
+/*
+	Should also consider using more direct names for
+	tags instead of .AQ for everything. This makes it so
+	we'll have less copying to do in the future when we 
+	copy the styles here to future divs.
+*/
 
 .AQ{
 	text-align: center;
