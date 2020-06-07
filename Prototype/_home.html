@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title>
+		<link rel = "stylesheet" type = "text/css" href = "divs.css" />
+		<link rel = "stylesheet" type = "text/css" href = "_header.css" />
+		<style>
+			/*
+				This is just a popular font from google
+				see the body container in styles for how
+				I use it.
+			*/
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+			html{
+				width: 1280px;
+				height: 768px;
+				/*This just changes it so my borders and padding are included when I define widths and heights.*/
+				box-sizing: border-box;
+				/*Prevents scrolling*/
+				overflow: hidden;
+			}
+			body{
+				/*I choose these dimensions because it seems like most latops 
+					have a similar resolution to them.*/
+				width: 1280px;
+				height: 768px;
+				/*margins are 0 to ensure the background of body goes right to the edge of the html container*/
+				margin: 0;
+				background-image: url("map.jpg");
+				background-repeat: no-repeat;
+				/*Background attachment should ensure the background stays fixed
+				  and therefore unscrollable.*/
+				background-attachment: fixed;
+				/*I might not need this background-position: center; because it might be centered already*/
+				background-size: 1280px;
+				height: 768px;
+				/*This font family field says try to use Montserrat and use sans-serrif as a fallback if it doesn't work.*/
+				font-family: "Montserrat", sans-serrif;
+				font-weight: 500;
+				font-size: 16px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--Everything inside bigHeader is in top bar in the page.-->
+		<header class="bigHeader">
+
+			<a href = '_home.html'><img src="sfulogo.png" alt="Logo" class ="logo"></a>
+			<nav>
+				<ul>
+					<!--The order of this is reverse because I used float: right in li's style which flips it.-->
+					<li><a href="#">About</a></li>
+					<li><a href="#">Github</a></li>
+					<li><a href="#">How to Use This Map</a></li>
+					<li><a href="_home.html">Home</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="AQ">
+			<button>i</button>	
+			<div>
+				<h6>Academic Quadrangle</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+	</body>
+</html>
