@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+			html{
+				/*this font size setting is so our em unit fonts will scale*/
+				font-size: 100%;
+			}
+			body{
+				position: relative;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100vh;
+
+				font-family: "Montserrat";
+				background-image: url("map.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+
+			}
+			header {
+				width: 100%;
+				height: 15vh;
+				/*Using flexbox to space image and ul in a row format*/
+				display: flex;
+
+				background-color: #060517;
+			}
+			header ul{
+				/*for some reason css gives ul's some default margins and padding*/
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				/*Using flexbox to space li's evenly in given space*/
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+
+				list-style: none;
+			}
+			header ul li{
+				padding: 2.5%;
+				border: solid 2px #3930d9;
+				border-radius: 20%;
+			}
+			header ul li a{
+				font-size: 1em;
+				color: white;
+				text-decoration: none;
+			}
+
+			.AQ{
+				/*
+					As the size of AQ's container (body) changes the percent
+					units of margin change based on that so we use margin
+					positioning here instead of ordinary left and top.
+				*/
+				position: absolute;
+				left: 0;
+				top: 0;
+				margin-left: 55%;
+				margin-top: 20%;
+				padding: 5px;
+				width: 5px;
+
+				text-align: center;
+				border: 5px solid blue;
+				border-radius: 25px;
+				background-color: blue;
+				color: white;
+			}
+			.AQ div, .AQ a{
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<image src="sfulogo.png" height="100%" alt="Logo" class ="logo">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">How to Use this Map</a></li>
+				<li><a href="#">Github</a></li>
+			</ul>
+		</header>
+		<div class="AQ">
+			i
+			<div>Academic Quadrangle</div>
+			<a href="#">Click Here to find out more!</a>
+		</div>
+	</body>
+</html>
