@@ -19,7 +19,6 @@
 				background-image: url("map.jpg");
 				background-repeat: no-repeat;
 				background-size: cover;
-
 			}
 			header {
 				width: 100%;
@@ -41,28 +40,30 @@
 
 				list-style: none;
 			}
-			header ul li{
-				padding: 2.5%;
-				border: solid 2px #3930d9;
-				border-radius: 20%;
-			}
-			header ul li a{
-				font-size: 1em;
-				color: white;
+			header ul a{
+				/*I use vw here for scaling font*/
+				font-size: 2.5vw;
 				text-decoration: none;
+				color: white;
+			}
+			header ul a li{
+				padding: 1vh;
+				border: 2px white solid;
+				border-radius: 25px;
+			}
+			header ul a li:hover {
+				background-color: blue;
+				border: 2px blue solid;
 			}
 
-			.AQ{
+			.AQ, .ConvocationHall, .ASB, .Blusson, .Saywell, .Univercity, .Library, .Discovery, .WMC, .Fitness, .Residence {
 				/*
-					As the size of AQ's container (body) changes the percent
-					units of margin change based on that so we use margin
-					positioning here instead of ordinary left and top.
+					See positioning file comments for description on how
+					the positioning here works.
 				*/
 				position: absolute;
 				left: 0;
 				top: 0;
-				margin-left: 55%;
-				margin-top: 20%;
 				padding: 5px;
 				width: 5px;
 
@@ -71,9 +72,117 @@
 				border-radius: 25px;
 				background-color: blue;
 				color: white;
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 			}
-			.AQ div, .AQ a{
+			.AQ p, .ConvocationHall p, .ASB p, .Blusson p, .Saywell p, .Univercity p, .Library p, .Discovery p, 
+			.WMC p, .Fitness p, .Residence p {
+				margin: 0;
+				padding: 0;
+			}
+			.AQ div, .ConvocationHall div, .ASB div, .Blusson div, .Saywell div, .Univercity div, .Library div, 
+			.Discovery div, .WMC div, .Fitness div, .Residence div {
 				display: none;
+				margin: 0;
+				padding: 0;
+			}
+			.AQ:hover, .ConvocationHall:hover, .ASB:hover, .Blusson:hover, .Saywell:hover, .Univercity:hover, .Library:hover,
+			.Discovery:hover, .WMC:hover, .Fitness:hover, .Residence:hover {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 4%;
+				height: 5%;
+
+				background-color: white;
+				border: none;
+			}
+			.AQ:hover p, .ConvocationHall:hover p, .ASB:hover p, .Blusson:hover p, .Saywell:hover p, .Univercity:hover p, .Library:hover p,
+			.Discovery:hover p, .WMC:hover p, .Fitness:hover p, .Residence:hover p {
+				display: none;
+				color: blue;
+			}
+			.AQ:hover div, .ConvocationHall:hover div, .ASB:hover div, .Blusson:hover div, .Saywell:hover div, 
+			.Univercity:hover div, .Library:hover div, .Discovery:hover div, .WMC:hover div, .Fitness:hover div, .Residence:hover div {
+				display: flex;
+				flex-direction: column;
+
+				font-size: 1.5vw;
+				color: blue;
+			}
+			.AQ:hover div h6, .ConvocationHall:hover div h6, .ASB:hover div h6, .Blusson:hover div h6, .Saywell:hover h6,
+			.Univercity:hover div h6, .Library:hover div h6, .Discovery:hover div h6, .WMC:hover div h6,
+			.Fitness:hover div h6, .Residence:hover div h6 {
+				padding: 0;
+				margin: 0;
+				margin-bottom: 5%;
+			}
+			.AQ:hover div a button, .ConvocationHall:hover div a button, .ASB:hover div a button, .Blusson:hover div a button, 
+			.Saywell:hover div a button, .Univercity:hover div a button, .Library:hover div a button, .Discovery:hover div a button,
+			.WMC:hover div a button, .Fitness:hover div a button, .Residence:hover div a button {
+				font-size: 1vw;
+
+				border: blue 1px solid;
+				border-radius: 5px;
+				text-decoration: none;
+				font-family: inherit;
+				background-color: white;
+			}
+			.AQ:hover div a button:hover, .ConvocationHall:hover div a button:hover, .ASB:hover div a button:hover, .Blusson:hover div a button:hover,
+			.Saywell:hover div a button:hover, .Univercity:hover div a button:hover, .Library:hover div a button:hover, 
+			.Discovery:hover div a button:hover, .WMC:hover div a button:hover, .Fitness:hover div a button:hover, .Residence:hover div a button:hover {
+				cursor: pointer;
+				background-color: blue;
+				color: white;
+			}
+
+			/*
+				As the size of AQ's container (body) changes the percent
+				units of margin change based on that so we use margin
+				positioning here instead of ordinary left and top.
+			*/
+			.AQ {
+				margin-left: 55%;
+				margin-top: 20%;
+			}
+			.ConvocationHall {
+				margin-left: 47%;
+				margin-top: 20%;
+			}
+			.ASB {
+				margin-left: 64%;
+				margin-top: 25%;
+			}
+			.Blusson {
+				margin-left: 65%;
+				margin-top: 15%;
+			}
+			.Saywell {
+				margin-left: 62%;
+				margin-top: 15%;
+			}
+			.Univercity {
+				margin-left: 73%;
+				margin-top: 19%;
+			}
+			.Library {
+				margin-left: 47%;
+				margin-top: 17%;
+			}
+			.Discovery {
+				margin-left: 72%;
+				margin-top: 37%;
+			}
+			.WMC {
+				margin-left: 38%;
+				margin-top: 19%;
+			}
+			.Fitness {
+				margin-left: 35%;
+				margin-top: 23%;
+			}
+			.Residence {
+				margin-left: 24%;
+				margin-top: 19%;
 			}
 		</style>
 	</head>
@@ -82,15 +191,87 @@
 		<header>
 			<image src="sfulogo.png" height="100%" alt="Logo" class ="logo">
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">How to Use this Map</a></li>
-				<li><a href="#">Github</a></li>
+				<a href="index.html"><li>Home</li></a>
+				<a href="#"><li>About This Map</li></a>
+				<a href="https://github.com/Evan-Coulter/SFU-Map"><li>Github</li></a>
 			</ul>
 		</header>
 		<div class="AQ">
-			i
-			<div>Academic Quadrangle</div>
-			<a href="#">Click Here to find out more!</a>
+			<p>i</p>
+			<div>
+				<h6>Academic Quadrangle</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="ConvocationHall">
+			<p>i</p>
+			<div>
+				<h6>Convocation Hall</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="ASB">
+			<p>i</p>
+			<div>
+				<h6>Applied Sciences Building</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="Blusson">
+			<p>i</p>
+			<div>
+				<h6>Blusson Hall</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="Saywell">
+			<p>i</p>
+			<div>
+				<h6>Saywell Hall</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="Univercity">
+			<p>i</p>
+			<div>
+				<h6>Univercity</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="Library">
+			<p>i</p>
+			<div>
+				<h6>W.A.C. Bennett Library</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="Discovery">
+			<p>i</p>
+			<div>
+				<h6>Discovery</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="WMC">
+			<p>i</p>
+			<div>
+				<h6>West Mall Centre</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="Fitness">
+			<p>i</p>
+			<div>
+				<h6>Fitness Centre</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="Residence">
+			<p>i</p>
+			<div>
+				<h6>Residence</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
 		</div>
 	</body>
 </html>
