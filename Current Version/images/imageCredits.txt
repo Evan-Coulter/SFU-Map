@@ -1,0 +1,5 @@
+"map.jpg" from https://www.sfu.ca/dean-gradstudies/contact/maps.html
+
+"sfulogo.png" from https://www.sfu.ca/dean-gradstudies/contact/maps.html
+
+"AQimage.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/academic-quadrangle.html

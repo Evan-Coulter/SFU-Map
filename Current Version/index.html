@@ -16,7 +16,7 @@
 				height: 100vh;
 
 				font-family: "Montserrat";
-				background-image: url("map.jpg");
+				background-image: url("images/map.jpg");
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
@@ -56,7 +56,7 @@
 				border: 2px blue solid;
 			}
 
-			.AQ, .ConvocationHall, .ASB, .Blusson, .Saywell, .Univercity, .Library, .Discovery, .WMC, .Fitness, .Residence {
+			.AQ, .ConvocationHall, .ASB, .Blusson, .Saywell, .Univercity, .Library, .Discovery, .WMC, .Fitness, .Residence, .RCB {
 				/*
 					See positioning file comments for description on how
 					the positioning here works.
@@ -75,18 +75,18 @@
 				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 			}
 			.AQ p, .ConvocationHall p, .ASB p, .Blusson p, .Saywell p, .Univercity p, .Library p, .Discovery p, 
-			.WMC p, .Fitness p, .Residence p {
+			.WMC p, .Fitness p, .Residence p, .RCB p {
 				margin: 0;
 				padding: 0;
 			}
 			.AQ div, .ConvocationHall div, .ASB div, .Blusson div, .Saywell div, .Univercity div, .Library div, 
-			.Discovery div, .WMC div, .Fitness div, .Residence div {
+			.Discovery div, .WMC div, .Fitness div, .Residence div, .RCB div {
 				display: none;
 				margin: 0;
 				padding: 0;
 			}
 			.AQ:hover, .ConvocationHall:hover, .ASB:hover, .Blusson:hover, .Saywell:hover, .Univercity:hover, .Library:hover,
-			.Discovery:hover, .WMC:hover, .Fitness:hover, .Residence:hover {
+			.Discovery:hover, .WMC:hover, .Fitness:hover, .Residence:hover, .RCB:hover {
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -97,12 +97,13 @@
 				border: none;
 			}
 			.AQ:hover p, .ConvocationHall:hover p, .ASB:hover p, .Blusson:hover p, .Saywell:hover p, .Univercity:hover p, .Library:hover p,
-			.Discovery:hover p, .WMC:hover p, .Fitness:hover p, .Residence:hover p {
+			.Discovery:hover p, .WMC:hover p, .Fitness:hover p, .Residence:hover p, .RCB:hover p {
 				display: none;
 				color: blue;
 			}
 			.AQ:hover div, .ConvocationHall:hover div, .ASB:hover div, .Blusson:hover div, .Saywell:hover div, 
-			.Univercity:hover div, .Library:hover div, .Discovery:hover div, .WMC:hover div, .Fitness:hover div, .Residence:hover div {
+			.Univercity:hover div, .Library:hover div, .Discovery:hover div, .WMC:hover div, .Fitness:hover div, .Residence:hover div,
+			.RCB:hover div {
 				display: flex;
 				flex-direction: column;
 
@@ -111,14 +112,14 @@
 			}
 			.AQ:hover div h6, .ConvocationHall:hover div h6, .ASB:hover div h6, .Blusson:hover div h6, .Saywell:hover h6,
 			.Univercity:hover div h6, .Library:hover div h6, .Discovery:hover div h6, .WMC:hover div h6,
-			.Fitness:hover div h6, .Residence:hover div h6 {
+			.Fitness:hover div h6, .Residence:hover div h6, .RCB:hover div h6 {
 				padding: 0;
 				margin: 0;
 				margin-bottom: 5%;
 			}
 			.AQ:hover div a button, .ConvocationHall:hover div a button, .ASB:hover div a button, .Blusson:hover div a button, 
 			.Saywell:hover div a button, .Univercity:hover div a button, .Library:hover div a button, .Discovery:hover div a button,
-			.WMC:hover div a button, .Fitness:hover div a button, .Residence:hover div a button {
+			.WMC:hover div a button, .Fitness:hover div a button, .Residence:hover div a button, .RCB:hover div a button {
 				font-size: 1vw;
 
 				border: blue 1px solid;
@@ -129,7 +130,8 @@
 			}
 			.AQ:hover div a button:hover, .ConvocationHall:hover div a button:hover, .ASB:hover div a button:hover, .Blusson:hover div a button:hover,
 			.Saywell:hover div a button:hover, .Univercity:hover div a button:hover, .Library:hover div a button:hover, 
-			.Discovery:hover div a button:hover, .WMC:hover div a button:hover, .Fitness:hover div a button:hover, .Residence:hover div a button:hover {
+			.Discovery:hover div a button:hover, .WMC:hover div a button:hover, .Fitness:hover div a button:hover, .Residence:hover div a button:hover,
+			.RCB:hover div a button:hover {
 				cursor: pointer;
 				background-color: blue;
 				color: white;
@@ -184,15 +186,19 @@
 				margin-left: 24%;
 				margin-top: 19%;
 			}
+			.RCB {
+				margin-left: 52.5%;
+				margin-top: 15%;
+			}
 		</style>
 	</head>
 
 	<body>
 		<header>
-			<image src="sfulogo.png" height="100%" alt="Logo" class ="logo">
+			<image src="images/sfulogo.png" height="100%" alt="Logo" class ="logo">
 			<ul>
 				<a href="index.html"><li>Home</li></a>
-				<a href="#"><li>About This Map</li></a>
+				<a href="starting_page.htm"><li>About This Map</li></a>
 				<a href="https://github.com/Evan-Coulter/SFU-Map"><li>Github</li></a>
 			</ul>
 		</header>
@@ -200,7 +206,7 @@
 			<p>i</p>
 			<div>
 				<h6>Academic Quadrangle</h6>
-				<a a href="#"><button>Click Here to View More</button></a>
+				<a a href="AQ.html"><button>Click Here to View More</button></a>
 			</div>
 		</div>
 		<div class="ConvocationHall">
@@ -270,6 +276,13 @@
 			<p>i</p>
 			<div>
 				<h6>Residence</h6>
+				<a a href="#"><button>Click Here to View More</button></a>
+			</div>
+		</div>
+		<div class="RCB">
+			<p>i</p>
+			<div>
+				<h6>RCB Hall</h6>
 				<a a href="#"><button>Click Here to View More</button></a>
 			</div>
 		</div>
