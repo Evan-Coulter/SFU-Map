@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UniCity Information</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+			html{
+				/*this font size setting is so our em unit fonts will scale*/
+				font-size: 100%;
+			}
+			body{
+				position: relative;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100vh;
+
+				font-family: "Montserrat";
+			}
+			header {
+				width: 100%;
+				height: 15vh;
+				/*Using flexbox to space image and ul in a row format*/
+				display: flex;
+
+				background-color: #060517;
+			}
+			header ul{
+				/*for some reason css gives ul's some default margins and padding*/
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				/*Using flexbox to space li's evenly in given space*/
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+
+				list-style: none;
+			}
+			header ul a{
+				/*I use vw here for scaling font*/
+				font-size: 2.5vw;
+				text-decoration: none;
+				color: white;
+			}
+			header ul a li{
+				padding: 1vh;
+				border: 2px white solid;
+				border-radius: 25px;
+			}
+			header ul a li:hover {
+				background-color: blue;
+				border: 2px blue solid;
+			}
+
+			h1 {
+				text-align: center;
+				font-size: 4vw;
+			}
+
+			.content {
+				margin: auto;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-content: flex-start;
+
+			}
+			.content p {
+				width: 30%;
+				font-size: 2vw;
+				padding-right: 5%;
+				padding-top: 2%;
+				padding-bottom: 2%;
+				text-align: center;
+
+				border-right: solid 1px black;
+			}
+			.content .Uni_image {
+				padding: 13%;
+				margin-left: 5%;
+				background-image: url("images/highlands.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				border-radius: 10px;
+
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<image src="images/sfulogo.png" height="100%" alt="Logo" class ="logo">
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="starting_page.htm"><li>About this Map</li></a>
+				<a href="https://github.com/Evan-Coulter/SFU-Map"><li>Github</li></a>
+			</ul>
+		</header>
+		<h1>UniCity</h1>
+		<div class = "content">
+			<p>
+				Near Cornerstone, there are a couple of residential buildings in which
+				the entire area is called UniCity. In the UniCity, there is an elementary
+				school called University Highlands. The school belongs to District 41 in 
+				which some students will likely become a SFU student.  
+			</p>
+			<div class = "Uni_image"/>
+		</div>
+	</body>
+</html>
