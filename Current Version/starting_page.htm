@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-.button{
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin:4px 2px;
-  transition-duration:0.4s;
-  cursor: pointer;
-}
+	<head>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+			body{
+				font-family: "Montserrat";
+				margin: 0;
+				padding: 0;
+				height: 100vh;
+				width: 100%;
+				background-image: url("images/sfu_entrance1.jpg");
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				overflow: none;
+				display: flex;
+				text-align: center;
+			}
+			div {
+				font-size: 1.2vw;
+				padding: 2%;
+				margin: auto;
+				background: white;
+				border-radius: 10px;
+			}
+			h1 {
+				margin: 0;
+			}
+			button {
+				padding: 1%;
+				font-family: "Montserrat";
+				text-decoration: none;
+				border: none;
+				border: 2px solid #2b7de9;
+				border-radius: 3px;
+				background: #2b7de9;
+				color: white;
+				font-size: 2vw;
+				cursor: pointer;
+			}
+			button:hover {
+				background-color: white;
+				color: #2b7de9;
+				border: #2b7de9 2px solid;
+			}
+		</style>
+	</head>
 
-.button1{
-  background-color:white;
-  color:black;
-  border: 2px solid #4CAF50;
-}
-.button1:hover{
-  background-color:#4CAF50;
-  color:white;
-}
-</style>
-</head>
-<body>
-<body style="background-color:Aquamarine;">
-<h1>Welcome to SFU Map (Burnaby Campus)</h1>
-
-<br><br>
-<center>
-<img src="images/sfu_entrance.jpg" alt="sfu entrance" width="900" height="550">
-<br><br>
-<p>Click to start to explore Sfu's burnaby Campus</p>
-<p>It's best to have your window screen to be full </p>
-<button class="button button1">Start</button>
-</center>
-</body>
+	<body>
+		<div>
+				<h1>Welcome to our map of SFU Burnaby</h1>
+				<p>Click to start to begin exploring</p>
+				<p>It's best to have your window screen to be full</p>
+				<a href="index.html"><button>Start</button></a>
+		</div>
+	</body>
 </html>
