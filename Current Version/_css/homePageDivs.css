@@ -1,0 +1,162 @@
+.AQ, .ConvocationHall, .ASB, .Blusson, .Saywell, .Univercity, .Library, .Discovery, .WMC, .Fitness, .Residence, .RCB,
+.Biology, .Chemistry, .MBC, .Physics, .Tasc {
+	/*
+		See positioning file comments(~line 83) for description on how
+		the positioning here works.
+	*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 5px;
+	width: 5px;
+
+	text-align: center;
+	border: 5px solid blue;
+	border-radius: 25px;
+	background-color: blue;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.AQ p, .ConvocationHall p, .ASB p, .Blusson p, .Saywell p, .Univercity p, .Library p, .Discovery p, 
+.WMC p, .Fitness p, .Residence p, .RCB p, .Biology p, .Chemistry p, .MBC p, .Physics p, .Tasc p {
+	margin: 0;
+	padding: 0;
+}
+.AQ div, .ConvocationHall div, .ASB div, .Blusson div, .Saywell div, .Univercity div, .Library div, 
+.Discovery div, .WMC div, .Fitness div, .Residence div, .RCB div, .Biology div, .Chemistry div, .MBC div, 
+.Physics div, .Tasc div {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+.AQ:hover, .ConvocationHall:hover, .ASB:hover, .Blusson:hover, .Saywell:hover, .Univercity:hover, .Library:hover,
+.Discovery:hover, .WMC:hover, .Fitness:hover, .Residence:hover, .RCB:hover, .Biology:hover, .Chemistry:hover, 
+.MBC:hover, .Physics:hover, .Tasc:hover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4%;
+	height: 5%;
+
+	background-color: white;
+	border: none;
+}
+.AQ:hover p, .ConvocationHall:hover p, .ASB:hover p, .Blusson:hover p, .Saywell:hover p, .Univercity:hover p, .Library:hover p,
+.Discovery:hover p, .WMC:hover p, .Fitness:hover p, .Residence:hover p, .RCB:hover p, .Biology:hover p, .Chemistry:hover p, 
+.MBC:hover p, .Physics:hover p, .Tasc:hover p {
+	display: none;
+	color: blue;
+}
+.AQ:hover div, .ConvocationHall:hover div, .ASB:hover div, .Blusson:hover div, .Saywell:hover div, 
+.Univercity:hover div, .Library:hover div, .Discovery:hover div, .WMC:hover div, .Fitness:hover div, .Residence:hover div,
+.RCB:hover div, .Biology:hover div, .Chemistry:hover div, .MBC:hover div, .Physics:hover div, .Tasc:hover div {
+	display: flex;
+	flex-direction: column;
+
+	font-size: 1.5vw;
+	color: blue;
+}
+.AQ:hover div h6, .ConvocationHall:hover div h6, .ASB:hover div h6, .Blusson:hover div h6, .Saywell:hover h6,
+.Univercity:hover div h6, .Library:hover div h6, .Discovery:hover div h6, .WMC:hover div h6,
+.Fitness:hover div h6, .Residence:hover div h6, .RCB:hover div h6, .Biology:hover div h6, .Chemistry:hover div h6, 
+.MBC:hover div h6, .Physics:hover div h6, .Tasc:hover div h6 {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5%;
+}
+.AQ:hover div a button, .ConvocationHall:hover div a button, .ASB:hover div a button, .Blusson:hover div a button, 
+.Saywell:hover div a button, .Univercity:hover div a button, .Library:hover div a button, .Discovery:hover div a button,
+.WMC:hover div a button, .Fitness:hover div a button, .Residence:hover div a button, .RCB:hover div a button,
+.Biology:hover div a button, .Chemistry:hover div a button, .MBC:hover div a button, .Physics:hover div a button, 
+.Tasc:hover div a button {
+	font-size: 1vw;
+
+	border: blue 1px solid;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: inherit;
+	background-color: white;
+}
+.AQ:hover div a button:hover, .ConvocationHall:hover div a button:hover, .ASB:hover div a button:hover, .Blusson:hover div a button:hover,
+.Saywell:hover div a button:hover, .Univercity:hover div a button:hover, .Library:hover div a button:hover, 
+.Discovery:hover div a button:hover, .WMC:hover div a button:hover, .Fitness:hover div a button:hover, .Residence:hover div a button:hover,
+.RCB:hover div a button:hover, .Biology:hover div a button:hover, .Chemistry:hover div a button:hover, .MBC:hover div a button:hover, 
+.Physics:hover div a button:hover, .Tasc:hover div a button:hover {
+	cursor: pointer;
+	background-color: blue;
+	color: white;
+}
+
+/*
+	As the size of AQ's container (body) changes the percent
+	units of margin change based on that so we use margin
+	positioning here instead of ordinary left and top.
+*/
+.AQ {
+	margin-left: 55%;
+	margin-top: 20%;
+}
+.ConvocationHall {
+	margin-left: 47%;
+	margin-top: 20%;
+}
+.ASB {
+	margin-left: 63%;
+	margin-top: 24%;
+}
+.Blusson {
+	margin-left: 65%;
+	margin-top: 15%;
+}
+.Saywell {
+	margin-left: 62%;
+	margin-top: 15%;
+}
+.Univercity {
+	margin-left: 73%;
+	margin-top: 19%;
+}
+.Library {
+	margin-left: 47%;
+	margin-top: 17%;
+}
+.Discovery {
+	margin-left: 72%;
+	margin-top: 37%;
+}
+.WMC {
+	margin-left: 38%;
+	margin-top: 19%;
+}
+.Fitness {
+	margin-left: 35%;
+	margin-top: 23%;
+}
+.Residence {
+	margin-left: 24%;
+	margin-top: 19%;
+}
+.RCB {
+	margin-left: 52.5%;
+	margin-top: 15%;
+}
+.Biology {
+	margin-left: 54%;
+	margin-top: 25%;
+}
+.Chemistry {
+	margin-left: 52%;
+	margin-top: 25%;
+}
+.MBC {
+	margin-left: 46%;
+	margin-top: 23%;
+}
+.Physics {
+	margin-left: 57%;
+	margin-top: 25%;
+}
+.Tasc {
+	margin-left: 63%;
+	margin-top: 28%;
+}
