@@ -11,9 +11,9 @@
 	width: 5px;
 
 	text-align: center;
-	border: 5px solid blue;
+	border: 5px solid #2b7de9;
 	border-radius: 25px;
-	background-color: blue;
+	background-color: #2b7de9;
 	color: white;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -54,7 +54,7 @@
 	flex-direction: column;
 
 	font-size: 1.5vw;
-	color: blue;
+	color: #2b7de9;
 }
 .AQ:hover div h6, .ConvocationHall:hover div h6, .ASB:hover div h6, .Blusson:hover div h6, .Saywell:hover h6,
 .Univercity:hover div h6, .Library:hover div h6, .Discovery:hover div h6, .WMC:hover div h6,
@@ -71,7 +71,7 @@
 .Tasc:hover div a button {
 	font-size: 1vw;
 
-	border: blue 1px solid;
+	border: #2b7de9 1px solid;
 	border-radius: 5px;
 	text-decoration: none;
 	font-family: inherit;
@@ -83,7 +83,7 @@
 .RCB:hover div a button:hover, .Biology:hover div a button:hover, .Chemistry:hover div a button:hover, .MBC:hover div a button:hover, 
 .Physics:hover div a button:hover, .Tasc:hover div a button:hover {
 	cursor: pointer;
-	background-color: blue;
+	background-color: #2b7de9;
 	color: white;
 }
 
