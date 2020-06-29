@@ -44,8 +44,8 @@ header ul a li{
 	border-radius: 25px;
 }
 header ul a li:hover {
-	background-color: blue;
-	border: 2px blue solid;
+	background-color: #2b7de9;
+	border: 2px #2b7de9 solid;
 }
 
 h1 {
