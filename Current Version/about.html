@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About This Map</title>
+        <link rel="stylesheet" type="text/css" href="_css/homePageMain.css"/>
+        <style>
+            body{
+                background-image: none;
+                text-align: center;
+                font-size: 2vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            h1 {
+                color: #2b7de9;
+                margin: 0;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+            }
+            .container div {
+                width: 100%;
+                flex: 1;
+            }
+            .container div h3 {
+                padding-top:0;
+                margin-top: 0;
+                color: #2b7de9;
+            }
+            .container div p {
+                font-size: 1.7vw;
+                width: 75%;
+                margin: auto;
+            }
+            .container div ul {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: space-between;
+                height: 75%;
+            }
+            .container div ul li {
+                margin: auto;
+                margin-top: 0;
+            }
+            .container div ul li::before {
+                content: "\2022";
+                color: #2b7de9;
+                font-weight: none;
+                display: inline-block;
+                font-size: 3vw;
+                margin: auto;
+            }
+            footer {
+                font-size: 1vw;
+                color: white;
+                background-color: #060517;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+			<image src="images/sfulogo.png" height="100%" alt="Logo" class ="logo">
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="starting_page.htm"><li>Back To Start</li></a>
+				<a href="https://github.com/Evan-Coulter/SFU-Map"><li>Github</li></a>
+			</ul>
+        </header>
+        <h1>About This Map</h1>
+        <div class="container">
+            <div>
+                <h3>How it was made</h3>
+                <p>
+                    This map was created using pure HTML and CSS as an iteractive overlay to
+                    a standard map of SFU Burnaby from the SFU Graduate and
+                    Postdoctoral Studies Site. Note that this map, and all other images used
+                    have their sources credited in the attached 'imageCredits.txt' file. 
+                </p>
+            </div>
+            <div>
+                <h3>Who helped make it?</h3>
+                <ul>
+                    <li>Justin Choi (jca377@sfu.ca)</li>
+                    <li>Ashley Phay (aphay@sfu.ca)</li>
+                    <li>Evan Coulter (ercoulte@sfu.ca)</li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p>Thank you for reviewing our submission to the CSSS Summer 2020 Bounty Board Contest! :)</p>
+        </footer>
+    </body>
+</html>

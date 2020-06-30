@@ -22,7 +22,6 @@ header {
 	height: 15vh;
 	/*Using flexbox to space image and ul in a row format*/
 	display: flex;
-
 	background-color: #060517;
 }
 header ul{

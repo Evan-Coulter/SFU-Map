@@ -4,18 +4,40 @@
 
 "AQimage.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/academic-quadrangle.html
 
-"convocationMall.jpg" from https://commons.wikimedia.org/wiki/File:Convocation-Mall-SFU-Burnaby-British-Columbia-Canada-01-A.jpg
+"rcb.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/robert-c--brown-hall.html
+
+"fitness jpg" from https://the-peak.ca/2018/06/the-current-sfu-gym-dress-code-isnt-working-part-two/
+
+"residence.jpg" from https://www.sfu.ca/students/residences/housing-options/hamilton-hall.html
+
+"shrum chemistry.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/shrum-science-centre-chemistry.html
+
+"shrum physics.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/shrum-science-centre-physics.html
+
+"shrum biology.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/shrum-science-centre-biology.html
+
+"maggie.png" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/maggie-benston-centre.html
+
+"tasc.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/technology---science-complex-21.html
+
+"startpageimage.jpg" from http://www.sfu.ca/campuses/burnaby.html
+
+"wmcImage.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/west-mall-centre.html
+
+"discoveryImage.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/discovery-1.html
+
+"libraryImage.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/w-a-c--bennet-library.html
 
 "asbImage.jpg" from https://www.sfu.ca/finance/budget-consultations-2020-21.html
+
+"univercityImage.jpg" from https://en.wikipedia.org/wiki/UniverCity
 
 "blussonImage.jpg" from https://commons.wikimedia.org/wiki/File:Blusson_Hall.jpg
 
 "saywellImage.jpg" from https://www.flickr.com/photos/dennistt/4574157452/
 
-"univercityImage.jpg" from https://en.wikipedia.org/wiki/UniverCity
+"convocationMall.jpg" from https://commons.wikimedia.org/wiki/File:Convocation-Mall-SFU-Burnaby-British-Columbia-Canada-01-A.jpg
 
-"libraryImage.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/w-a-c--bennet-library.html
-
-"discoveryImage.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/discovery-1.html
-
-"wmcImage.jpg" from https://www.sfu.ca/fs/campus-maps/directory-of-buildings/west-mall-centre.html
+Disclaimer,
+    All images used here are used for educational purposes and can be removed at request of the
+    owner. See emails in "About Us" for further inquries. 
